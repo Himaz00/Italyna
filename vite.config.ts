@@ -11,7 +11,6 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    // Removed Lovable Tagger integration by Ayham Zedan
   ].filter(Boolean),
   resolve: {
     alias: {
