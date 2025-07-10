@@ -40,9 +40,9 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">{t('contact.address', 'Address')}</h4>
                   <p className="text-muted-foreground">
-                    Ristorante Carmelo Greco<br />
-                    Ziegelhüttenweg 1-3<br />
-                    60598 Frankfurt am Main, Germany
+                    Risto Carmel Grco<br />
+                    Ziegelhüttenwe 1-6<br />
+                    60599 Frankfurt am Main, Germany
                   </p>
                 </div>
               </div>
