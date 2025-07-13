@@ -6,7 +6,7 @@ This project is a modern, multilanguage restaurant website built with Vite, Reac
 ---
 
 ## Project Overview
-This codebase was created and is maintained by Ayham Zedan. All code, features, and documentation are original and not generated or managed by any third-party automation platform.
+This codebase was created and is maintained by Ayham Zedan.
 
 ---
 
