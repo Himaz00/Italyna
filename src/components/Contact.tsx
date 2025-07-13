@@ -113,7 +113,7 @@ const Contact = () => {
             <div className="aspect-[4/3] bg-muted rounded-2xl overflow-hidden border shadow-lg">
               <iframe
                 title="Google Map"
-                src="https://www.google.com/maps?q=Ristorante+Carmelo+Greco+Frankfurt+Germany&output=embed"
+                src="https://www.google.com/maps?q=23.4162,25.6628&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

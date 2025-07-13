@@ -1,7 +1,7 @@
 // Made by Ayham Zedan
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Menu, X, Phone, Clock, TrendingUp } from 'lucide-react';
+import { Menu, X, Phone, Clock, TrendingUp, Info } from 'lucide-react';
 import LanguageSwitcher from './LanguageSwitcher';
 import { useTranslation } from 'react-i18next';
 
@@ -41,6 +41,10 @@ const Header = () => {
             <div className="flex items-center gap-2">
               <Clock className="h-4 w-4" />
               <span>{t('openHours', 'Open Daily 11AM - 10PM')}</span>
+            </div>
+            <div className="flex items-center gap-2 mt-1">
+              <Info className="h-4 w-4 text-muted-foreground" />
+              <span className="text-sm md:text-base text-muted-foreground italic font-sans font-semibold">This project is a demo project and it's not a real restaurant</span>
             </div>
           </div>
         </div>
@@ -86,6 +90,10 @@ const Header = () => {
               {t('bookTable', 'Book a Table')}
             </Button>
             {/* Language Switcher Button */}
+            <LanguageSwitcher />
+          </div>
+          {/* Language Switcher for mobile */}
+          <div className="flex md:hidden items-center ml-2">
             <LanguageSwitcher />
           </div>
 
